@@ -1,0 +1,26 @@
+# ===== IDE-uri JetBrains (IntelliJ + Android Studio) =====
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ===== Gradle / Kotlin =====
+.gradle/
+build/
+.kotlin/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ===== Android =====
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.jks
+*.keystore
+
+# ===== Date sensibile =====
+.env
+*.env
